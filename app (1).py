@@ -1,10 +1,10 @@
 import streamlit as st
 import pickle
 import numpy as np
-import joblib
+
 
 # Load model
-model = joblib.load("model.pkl")
+model = pickle.load("model.pkl")
 
 st.title("📊 Text Classification (ML Model)")
 
