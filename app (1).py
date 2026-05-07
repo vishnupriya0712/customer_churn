@@ -4,7 +4,7 @@ import numpy as np
 
 
 # Load model
-model = pickle.load("model.pkl")
+model = pickle.load(open("model.pkl","rb"))
 
 st.title("📊 Text Classification (ML Model)")
 
